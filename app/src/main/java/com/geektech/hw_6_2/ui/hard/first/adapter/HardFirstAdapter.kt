@@ -49,6 +49,7 @@ class HardFirstAdapter(val onItemClick: (url: Uri) -> Unit) :
                 ivImage.setOnClickListener {
                     if (ivFade.visibility == View.GONE) {
                         ivFade.visibility = View.VISIBLE
+                        ivChecked.visibility = View.VISIBLE
                         onItemClick(uri)
                     }
                 }

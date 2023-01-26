@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
@@ -9,6 +10,8 @@
         android:layout_height="112dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="24dp"
+        app:cardElevation="0dp"
+        android:elevation="0dp"
         app:cardCornerRadius="12dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -20,16 +23,29 @@
             android:layout_height="match_parent"
             android:layout_gravity="center_horizontal"
             android:contentDescription="@string/image"
+            android:elevation="1dp"
             android:scaleType="centerCrop"
             android:src="@drawable/ic_launcher_background" />
 
         <ImageView
+            android:visibility="gone"
             android:id="@+id/ivFade"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/fade"
+            android:background="@drawable/bg_image"
             android:contentDescription="@string/fade"
-            android:visibility="gone" />
+            android:elevation="3dp"
+ />
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/ivChecked"
+            android:elevation="5dp"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_checked"
+            tools:ignore="ContentDescription" />
     </androidx.cardview.widget.CardView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
