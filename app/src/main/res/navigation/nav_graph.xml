@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/choseFragment">
+
+    <fragment
+        android:id="@+id/choseFragment"
+        android:name="com.geektech.hw_6_2.ui.chose.ChoseFragment"
+        android:label="fragment_chose"
+        tools:layout="@layout/fragment_chose" />
+    <fragment
+        android:id="@+id/easyFirstFragment"
+        android:name="com.geektech.hw_6_2.ui.easy.firstScreen.EasyFirstFragment"
+        android:label="fragment_easy_first"
+        tools:layout="@layout/fragment_easy_first" />
+    <fragment
+        android:id="@+id/easySecondFragment"
+        android:name="com.geektech.hw_6_2.ui.easy.secondScreen.EasySecondFragment"
+        android:label="fragment_easy_second"
+        tools:layout="@layout/fragment_easy_second" />
+    <fragment
+        android:id="@+id/hardFirstFragment"
+        android:name="com.geektech.hw_6_2.ui.hard.first.HardFirstFragment"
+        android:label="fragment_hard_first"
+        tools:layout="@layout/fragment_hard_first" />
+    <fragment
+        android:id="@+id/hardSecondFragment"
+        android:name="com.geektech.hw_6_2.ui.hard.second.HardSecondFragment"
+        android:label="fragment_hard_second"
+        tools:layout="@layout/fragment_hard_second" />
+
+
+</navigation>
