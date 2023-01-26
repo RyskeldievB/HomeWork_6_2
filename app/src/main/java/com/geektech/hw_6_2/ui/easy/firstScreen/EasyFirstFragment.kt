@@ -39,7 +39,7 @@ class EasyFirstFragment : Fragment() {
         binding.btnSelect.setOnClickListener {
             findNavController().navigate(
                 R.id.easySecondFragment,
-                bundleOf(EASY_SELECTED_IMAGES to selectedImages.toString())
+                bundleOf(EASY_SELECTED_IMAGES to selectedImages)
             )
         }
     }
