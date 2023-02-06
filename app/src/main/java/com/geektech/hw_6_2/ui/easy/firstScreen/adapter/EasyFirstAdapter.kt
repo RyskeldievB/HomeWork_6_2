@@ -12,24 +12,15 @@ class EasyFirstAdapter(val onItemClick: (url: String) -> Unit) :
     Adapter<EasyFirstAdapter.EasyFirstViewHolder>() {
 
     private val data = arrayListOf(
-        "https://i.pinimg.com/474x/2b/dc/6f/2bdc6f7fc1ed0660a2dc205c3217670d.jpg",
-        "https://i.pinimg.com/474x/8e/ce/a9/8ecea9ce11cfa6106c0977d940358307.jpg",
-        "https://i.pinimg.com/564x/2a/8e/af/2a8eafa61a9016cd0e67435148dcd3dd.jpg",
-        "https://i.pinimg.com/474x/2b/dc/6f/2bdc6f7fc1ed0660a2dc205c3217670d.jpg",
-        "https://i.pinimg.com/474x/8e/ce/a9/8ecea9ce11cfa6106c0977d940358307.jpg",
-        "https://i.pinimg.com/564x/2a/8e/af/2a8eafa61a9016cd0e67435148dcd3dd.jpg",
-        "https://i.pinimg.com/474x/2b/dc/6f/2bdc6f7fc1ed0660a2dc205c3217670d.jpg",
-        "https://i.pinimg.com/474x/8e/ce/a9/8ecea9ce11cfa6106c0977d940358307.jpg",
-        "https://i.pinimg.com/564x/2a/8e/af/2a8eafa61a9016cd0e67435148dcd3dd.jpg",
-        "https://i.pinimg.com/474x/2b/dc/6f/2bdc6f7fc1ed0660a2dc205c3217670d.jpg",
-        "https://i.pinimg.com/474x/8e/ce/a9/8ecea9ce11cfa6106c0977d940358307.jpg",
-        "https://i.pinimg.com/564x/2a/8e/af/2a8eafa61a9016cd0e67435148dcd3dd.jpg",
-        "https://i.pinimg.com/474x/2b/dc/6f/2bdc6f7fc1ed0660a2dc205c3217670d.jpg",
-        "https://i.pinimg.com/474x/8e/ce/a9/8ecea9ce11cfa6106c0977d940358307.jpg",
-        "https://i.pinimg.com/564x/2a/8e/af/2a8eafa61a9016cd0e67435148dcd3dd.jpg",
-        "https://i.pinimg.com/474x/2b/dc/6f/2bdc6f7fc1ed0660a2dc205c3217670d.jpg",
-        "https://i.pinimg.com/474x/8e/ce/a9/8ecea9ce11cfa6106c0977d940358307.jpg",
-        "https://i.pinimg.com/564x/2a/8e/af/2a8eafa61a9016cd0e67435148dcd3dd.jpg",
+        "https://bfoto.ru/oboi/oboi_priroda_1440x900.jpg",
+        "https://bfoto.ru/images/foto-visokogo-razresheniya-more-gory-1.jpg",
+        "https://bfoto.ru/images/foto-visokogo-razresheniya-more-gory-3.jpg",
+        "https://bfoto.ru/news/wp-content/uploads/2017/10/fotobank-besplatno-1-250x166.jpg",
+        "https://bfoto.ru/images/foto-visokogo-razresheniya-more-gory-1.jpg",
+        "https://proprikol.ru/wp-content/uploads/2020/04/krasivye-kartinki-vysokogo-razresheniya-3.jpg",
+        "https://funart.pro/uploads/posts/2021-03/1617075679_37-p-oboi-priroda-rossii-foto-visokogo-kachestv-38.jpg",
+        "https://pibig.info/uploads/posts/2021-05/1621373530_18-pibig_info-p-priroda-rossii-priroda-krasivo-foto-18.jpg",
+        "https://pw.artfile.me/wallpaper/30-09-2013/650x434/rossiya-sankt-peterburg-pavlovsk-priroda-755056.jpg"
     )
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): EasyFirstViewHolder {
